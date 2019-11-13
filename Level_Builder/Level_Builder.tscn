@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Level_Builder/level_builder.gd" type="Script" id=1]
+[ext_resource path="res://TileMaps/Example_Tilemap.tscn" type="PackedScene" id=2]
+
+[node name="Level_Builder" type="Node2D"]
+script = ExtResource( 1 )
+tilemap_scene = ExtResource( 2 )
+level_name = "Level_Example"
+
+[node name="Label" type="Label" parent="."]
+margin_left = 337.0
+margin_top = 250.0
+margin_right = 752.0
+margin_bottom = 264.0
+text = "Level Scene will be created when you hit the 'STOP' (F8) button."

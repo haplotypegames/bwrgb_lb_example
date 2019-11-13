@@ -1,0 +1,190 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Levels/level.gd" type="Script" id=1]
+[ext_resource path="res://Objects/Blue/Blue.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Objects/Red/Red.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Objects/Green/Green.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Objects/White/White.tscn" type="PackedScene" id=5]
+
+[node name="Level_Example" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Blue_0" parent="." instance=ExtResource( 2 )]
+position = Vector2( 96, 96 )
+
+[node name="Blue_1" parent="." instance=ExtResource( 2 )]
+position = Vector2( 224, 96 )
+
+[node name="Red_0" parent="." instance=ExtResource( 3 )]
+position = Vector2( 352, 96 )
+
+[node name="Red_1" parent="." instance=ExtResource( 3 )]
+position = Vector2( 416, 96 )
+
+[node name="Red_2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 480, 96 )
+
+[node name="Green_0" parent="." instance=ExtResource( 4 )]
+position = Vector2( 608, 96 )
+
+[node name="Green_1" parent="." instance=ExtResource( 4 )]
+position = Vector2( 800, 96 )
+
+[node name="White_0" parent="." instance=ExtResource( 5 )]
+position = Vector2( 992, 96 )
+
+[node name="White_1" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1056, 96 )
+
+[node name="White_2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1120, 96 )
+
+[node name="Blue_2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 96, 160 )
+
+[node name="Blue_3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 224, 160 )
+
+[node name="Red_3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 352, 160 )
+
+[node name="Green_2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 608, 160 )
+
+[node name="Green_3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 800, 160 )
+
+[node name="White_3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 992, 160 )
+
+[node name="White_4" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1120, 160 )
+
+[node name="Blue_4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 96, 224 )
+
+[node name="Blue_5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 224, 224 )
+
+[node name="Red_4" parent="." instance=ExtResource( 3 )]
+position = Vector2( 352, 224 )
+
+[node name="Green_4" parent="." instance=ExtResource( 4 )]
+position = Vector2( 608, 224 )
+
+[node name="Green_5" parent="." instance=ExtResource( 4 )]
+position = Vector2( 800, 224 )
+
+[node name="White_5" parent="." instance=ExtResource( 5 )]
+position = Vector2( 992, 224 )
+
+[node name="White_6" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1120, 224 )
+
+[node name="Blue_6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 96, 288 )
+
+[node name="Blue_7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 160, 288 )
+
+[node name="Blue_8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 224, 288 )
+
+[node name="Red_5" parent="." instance=ExtResource( 3 )]
+position = Vector2( 352, 288 )
+
+[node name="Red_6" parent="." instance=ExtResource( 3 )]
+position = Vector2( 416, 288 )
+
+[node name="Red_7" parent="." instance=ExtResource( 3 )]
+position = Vector2( 480, 288 )
+
+[node name="Green_6" parent="." instance=ExtResource( 4 )]
+position = Vector2( 608, 288 )
+
+[node name="Green_7" parent="." instance=ExtResource( 4 )]
+position = Vector2( 800, 288 )
+
+[node name="White_7" parent="." instance=ExtResource( 5 )]
+position = Vector2( 992, 288 )
+
+[node name="White_8" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1120, 288 )
+
+[node name="Blue_9" parent="." instance=ExtResource( 2 )]
+position = Vector2( 96, 352 )
+
+[node name="Blue_10" parent="." instance=ExtResource( 2 )]
+position = Vector2( 224, 352 )
+
+[node name="Red_8" parent="." instance=ExtResource( 3 )]
+position = Vector2( 352, 352 )
+
+[node name="Green_8" parent="." instance=ExtResource( 4 )]
+position = Vector2( 608, 352 )
+
+[node name="Green_9" parent="." instance=ExtResource( 4 )]
+position = Vector2( 800, 352 )
+
+[node name="White_9" parent="." instance=ExtResource( 5 )]
+position = Vector2( 992, 352 )
+
+[node name="White_10" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1120, 352 )
+
+[node name="Blue_11" parent="." instance=ExtResource( 2 )]
+position = Vector2( 96, 416 )
+
+[node name="Blue_12" parent="." instance=ExtResource( 2 )]
+position = Vector2( 224, 416 )
+
+[node name="Red_9" parent="." instance=ExtResource( 3 )]
+position = Vector2( 352, 416 )
+
+[node name="Green_10" parent="." instance=ExtResource( 4 )]
+position = Vector2( 608, 416 )
+
+[node name="Green_11" parent="." instance=ExtResource( 4 )]
+position = Vector2( 800, 416 )
+
+[node name="White_11" parent="." instance=ExtResource( 5 )]
+position = Vector2( 992, 416 )
+
+[node name="White_12" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1120, 416 )
+
+[node name="Blue_13" parent="." instance=ExtResource( 2 )]
+position = Vector2( 96, 480 )
+
+[node name="Blue_14" parent="." instance=ExtResource( 2 )]
+position = Vector2( 224, 480 )
+
+[node name="Red_10" parent="." instance=ExtResource( 3 )]
+position = Vector2( 352, 480 )
+
+[node name="Red_11" parent="." instance=ExtResource( 3 )]
+position = Vector2( 416, 480 )
+
+[node name="Red_12" parent="." instance=ExtResource( 3 )]
+position = Vector2( 480, 480 )
+
+[node name="Green_12" parent="." instance=ExtResource( 4 )]
+position = Vector2( 608, 480 )
+
+[node name="Green_13" parent="." instance=ExtResource( 4 )]
+position = Vector2( 672, 480 )
+
+[node name="Green_14" parent="." instance=ExtResource( 4 )]
+position = Vector2( 800, 480 )
+
+[node name="Green_15" parent="." instance=ExtResource( 4 )]
+position = Vector2( 864, 480 )
+
+[node name="White_13" parent="." instance=ExtResource( 5 )]
+position = Vector2( 992, 480 )
+
+[node name="White_14" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1056, 480 )
+
+[node name="White_15" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1120, 480 )
