@@ -1,7 +1,9 @@
 # bwrgb_lb_example
-Small project showing an example of the Tilemap level builder (LB) I used for the game BWRGB.
+Small project showing an example of the Tilemap level builder (LB) I used for the game BWRGB. This was created using the Godot Engine v3.1 release.
 
 - Purpose - Use the TileMap editor to build a level and add additional functionality by referencing the tileset indices and associating them to custom scene tiles.
+
+- Requirements - Godot Engine v3.1 or equiavalent is installed.
 
 - Limitations - TileMaps are very efficient and have lots of optimizations.  Replacing all of the tiles in a *large* level with scenes is probably not nearly as fast and efficient.  Using this method should be sufficient for smaller projects or supplementing larger projects with additional levels. Your mileage may vary.
 
