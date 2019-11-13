@@ -1,16 +1,20 @@
 # bwrgb_lb_example
 Small project showing an example of the Tilemap level builder (LB) I used for the game BWRGB.
 
+- Purpose - Use the TileMap editor to build a level and add additional functionality by referencing the tileset indices and associating them to custom scene tiles.
+
+- Limitations - TileMaps are very efficient and have lots of optimizations.  Replacing all of the tiles in a *large* level with scenes is probably not nearly as fast and efficient.  Using this method should be sufficient for smaller projects or supplementing larger projects with additional levels. Your mileage may vary.
+
 - Project Contents:
   - /Images - Has the .png files used for the tilemap tilesets and the level object scenes.  These don't have to be the same.  The level objects could have very different textures.
 
   - /Level_Builder: contains the LB scene that will build the level from an indicated tilemap
 
-  - /Levels - contains the base level file. Here it is just a container, but for your game you would want full functionality in it. For this example there is also a sub-folder called "Game_Levels" that I am directing the created levels to be put in.  This can be changed in the LB.
+  - /Levels - contains the base level file. Here it is just a container, but for your game you would want full functionality in it. For this example there is also a sub-folder called "Game_Levels" that I am directing the created levels to be put in.  This can be changed in the LB.  There is an example level that has already been created.
 
   - /Objects -  has the level object scenes that get created from the LB.  Here there are just 4 scenes (R,G,B,W).  In this example, these have very basic functionality (Area2D), but you can extend these to your specific project.
 
-  - /TileMaps - When I design a level in the TileMap Editor, I save the files here.
+  - /TileMaps - When I design a level in the TileMap Editor, I save the files here.  There is an example tilemap that has already been created.
 
   - /Tilesets -  The tileset used for the LB in this example.
  
